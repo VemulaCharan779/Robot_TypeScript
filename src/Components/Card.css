@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.robo-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;      
+}
+
+.card-container{
+    
+    height: 350px;
+    width: 300px;
+    background-color: rgb(155, 155, 155);
+    border: none;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card h6{
+    margin-top: 0px;
+}
+.card img {
+    width: 200px;
+}  
+
+.add-robot{
+    background-color: rgb(9, 250, 9);
+    float: right;
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-right: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-robot :hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
